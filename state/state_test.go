@@ -1,6 +1,8 @@
 package state
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestViewState(t *testing.T) {
 	wanted := "<W>HS rev korn kylling |_________| <E> \n"
