@@ -14,4 +14,5 @@ func main() {
 	event.PutCreature()
 	fmt.Println("Confirm who is the first creature crossing the river")
 	event.CrossRiver()
+	state.ViewState()
 }

@@ -27,17 +27,14 @@ func PutCreature() {
 				state.West = "korn kylling"
 				state.Boat = " |____" + creature + " " + creature2 + "____| "
 				state.East = ""
-				state.ViewState()
 			} else if creature2 == "korn" {
 				state.West = "rev kylling"
 				state.Boat = " |____" + creature + " " + creature2 + "____| "
 				state.East = ""
-				state.ViewState()
 			} else if creature2 == "kylling" {
 				state.West = "rev korn"
 				state.Boat = " |____" + creature + " " + creature2 + "____| "
 				state.East = ""
-				state.ViewState()
 			}
 		}
 	}
