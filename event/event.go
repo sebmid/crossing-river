@@ -50,5 +50,4 @@ func CrossRiver() {
 	fmt.Scan(&creature2)
 	state.Boat = "|_________|"
 	state.East = creature + " " + creature2
-	state.ViewState()
 }
